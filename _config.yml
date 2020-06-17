@@ -31,7 +31,8 @@ footer-links:
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
 
-
+import pandas as pd
+trumpim = pd.read_csv("https://raw.githubusercontent.com/sarasunbotschon/sarasunbotschon.github.io/master/trumpimmig.csv")
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
 disqus:
